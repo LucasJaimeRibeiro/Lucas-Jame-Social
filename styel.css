@@ -3,25 +3,38 @@
     padding: 0;
 }
 body {
-    background: blue;
+    background: #161623;
 }
-.perfil img{
-    border-radius: 50%;
-    border: 2px solid green;
-    padding: 3px;
-    width: 300px;
-    display: none;
-}
+
 .box {
-    width: 400px;
+    width: 350px;
     height: 500px;
-    background: transparent 20%;
-    border-radius: 6%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
     position: absolute;
     left: 40%;
     top: 10%;
+}
+.per img {
+    width: 240px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 255, 0);
+    padding: 2px;
+}
+.listlink li {
+    width: 240px;
+    height: 30px;
+    border: 2px solid green;
+    padding-top: 30px;
 
 }
-.listlink {
-    display: none;
+.listlink a {
+    gap: 60px;
+    display: flex;
+    color: aqua;
+    list-style: none;
+    text-decoration: none;
 }
