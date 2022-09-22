@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: blue;
+}
+.perfil img{
+    border-radius: 50%;
+    border: 2px solid green;
+    padding: 3px;
+    width: 300px;
+    display: none;
+}
+.box {
+    width: 400px;
+    height: 500px;
+    background: transparent 20%;
+    border-radius: 6%;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+
+}
+.listlink {
+    display: none;
+}
