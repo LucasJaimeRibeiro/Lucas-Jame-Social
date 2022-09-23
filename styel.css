@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 body {
     background: black;
@@ -36,6 +38,7 @@ body {
     width: 200px;
     height: 50px;
     margin: 20px;
+    color: green;
 
     display: flex;
     justify-content: center;
@@ -48,4 +51,42 @@ body {
 }
 .ms {
     padding-bottom: 30px;
+}
+/* anime*/
+section div {
+    animation: fromTop .7s 1s backwards;
+}
+section .listlink {
+    animation: fromBottom .7s backwards;
+}
+section .listlink a:nth-child(1) {
+    animation-delay: 0;
+}
+section .listlink a:nth-child(2) {
+    animation-delay: .4s;
+}
+section .listlink a:nth-child(3) {
+    .8s
+}
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(o);
+    }
+}
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(o);
+    }
 }
