@@ -3,13 +3,12 @@
     padding: 0;
 }
 body {
-    background: #161623;
+    background: black;
 }
 
 .box {
     width: 350px;
     height: 500px;
-    background: rgba(255, 255, 255, 0.1);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -24,17 +23,29 @@ body {
     border: 2px solid rgb(0, 255, 0);
     padding: 2px;
 }
-.listlink li {
-    width: 240px;
-    height: 30px;
-    border: 2px solid green;
-    padding-top: 30px;
-
-}
-.listlink a {
-    gap: 60px;
+.listlink {
     display: flex;
-    color: aqua;
-    list-style: none;
-    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.listlink .link{
+    border: 2px solid rgb(0, 255, 0);
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ms p {
+    color: rgb(0, 255, 0);
+    padding-bottom: 2px;
+}
+.ms {
+    padding-bottom: 30px;
 }
